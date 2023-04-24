@@ -163,3 +163,103 @@ body{
   margin: 0 auto;
   margin-top: 20px;
 }
+
+.imgbox
+{
+  display: flex;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 45px;
+
+}
+
+.word2
+{
+  color: gray;
+  display: flex;
+  padding-left: 15px;
+}
+
+.whitebox
+{
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  height: 550px;
+  width: 1240px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.smallbox2
+{
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+ text-decoration: blue;
+}
+
+a:visited {
+  color: blue;
+text-decoration: blue;
+}
+
+a:hover {
+  color: blue;
+text-decoration: blue;
+}
+
+a:active {
+  color: rgb(30, 0, 255);
+  text-decoration: blue;
+} 
+
+hr.new4 {
+  border: 1px solid gray;
+  width: 900px;
+  float: left;
+  margin-left: 20px;
+}
+
+.whitebox2
+{
+  background-color: rgb(249, 247, 247);
+  width: 500px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.imgbox1
+{
+  display: flex;
+  width: 500px;
+  height: 40px;
+}
+
+hr.new5 {
+  border: 1px solid rgb(223, 9, 9);
+  width: 40px;
+  margin-left: 160px;
+}
+
+.grid-container {
+  display: flex;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  height: 250px;
+  width: 900px;
+}
+
+.whitebox3
+{
+  background-color: rgb(249, 247, 247);
+  width: 500px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 10px;
+}
