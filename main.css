@@ -263,3 +263,46 @@ hr.new5 {
   margin: 40px;
   border-radius: 10px;
 }
+
+.boxes
+{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.images
+{
+  display: flex;
+  margin: 20px;
+  background-color: aqua;
+  
+}
+
+.whitemainbox
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1300px;
+  height: 150px;
+
+  margin: 0 auto;
+ }
+
+ .wordsbox4
+ {
+  display: block;
+  color: rgb(59, 59, 59);
+  padding-top: 10px;
+ }
+
+ .wordsbox5
+ {
+  display: block;
+  color: dodgerblue;
+  font-size: 18px;
+ 
+ }
