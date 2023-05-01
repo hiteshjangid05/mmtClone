@@ -306,3 +306,31 @@ hr.new5 {
   font-size: 18px;
  
  }
+
+ .box6
+ {
+     display: flex;
+     background-color: hsl(0, 0%, 100%);
+     width: 1240px;
+     height: 255px;
+     margin: 0 auto;
+    border-radius: 9px;
+    box-sizing: border-box;
+ }
+
+ .imgbox4
+ {
+   background-color: rgb(191, 0, 255);
+   display: block;
+   font-size: 30px;
+   margin-top: 30px;
+ }
+
+ .imgbox5
+ {
+  background-color: aqua;
+   display: block;
+   color: gray;
+   font-size: 15px;
+  }
+
