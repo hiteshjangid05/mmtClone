@@ -334,3 +334,33 @@ hr.new5 {
    font-size: 15px;
   }
 
+  .blackborderbox
+  {
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+ 
+  .bluleborderbox
+  {
+    display: flex;
+    border: 1px solid dodgerblue;
+    width: 175px;
+    height: 39px;
+    font-size: 25px;
+     margin-left: 177px; 
+     color: dodgerblue;
+     }
+
+     .mainbox2
+     {
+      display: block;
+      width: 200px;
+      height: 120px;
+      margin-top: 60px;
+      margin-left: 110px;
+       }
