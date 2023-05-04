@@ -364,3 +364,54 @@ hr.new5 {
       margin-top: 60px;
       margin-left: 110px;
        }
+
+       .mainbox3{
+       background-color: hsl(0, 0%, 100%);
+        width: 1240px;
+        height: 360px;
+        margin: 0 auto;
+       border-radius: 9px;
+       box-sizing: border-box;
+       margin-top: 30px;
+       }
+
+       .column {
+        float: left;
+       }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        background-color: blue;
+      }
+
+      .imgesbox
+      {
+         border-radius: 10px;
+      }
+
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      .bottom-left {
+        position: absolute;
+        bottom: 80px;
+        left: 55px;
+        color: black;
+        background-color: white;
+        width: 70px;
+        height: 25px;
+        font-size: 15px;
+        border-radius: 5px;
+        }
+
+        .wordbox2{
+          color: white;
+          font-size: 17px;
+          width: 200px;
+          
+        }
