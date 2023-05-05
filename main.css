@@ -306,3 +306,112 @@ hr.new5 {
   font-size: 18px;
  
  }
+
+ .box6
+ {
+     display: flex;
+     background-color: hsl(0, 0%, 100%);
+     width: 1240px;
+     height: 255px;
+     margin: 0 auto;
+    border-radius: 9px;
+    box-sizing: border-box;
+ }
+
+ .imgbox4
+ {
+   background-color: rgb(191, 0, 255);
+   display: block;
+   font-size: 30px;
+   margin-top: 30px;
+ }
+
+ .imgbox5
+ {
+  background-color: aqua;
+   display: block;
+   color: gray;
+   font-size: 15px;
+  }
+
+  .blackborderbox
+  {
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+ 
+  .bluleborderbox
+  {
+    display: flex;
+    border: 1px solid dodgerblue;
+    width: 175px;
+    height: 39px;
+    font-size: 25px;
+     margin-left: 177px; 
+     color: dodgerblue;
+     }
+
+     .mainbox2
+     {
+      display: block;
+      width: 200px;
+      height: 120px;
+      margin-top: 60px;
+      margin-left: 110px;
+       }
+
+       .mainbox3{
+       background-color: hsl(0, 0%, 100%);
+        width: 1240px;
+        height: 360px;
+        margin: 0 auto;
+       border-radius: 9px;
+       box-sizing: border-box;
+       margin-top: 30px;
+       }
+
+       .column {
+        float: left;
+       }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        background-color: blue;
+      }
+
+      .imgesbox
+      {
+         border-radius: 10px;
+      }
+
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      .bottom-left {
+        position: absolute;
+        bottom: 80px;
+        left: 55px;
+        color: black;
+        background-color: white;
+        width: 70px;
+        height: 25px;
+        font-size: 15px;
+        border-radius: 5px;
+        }
+
+        .wordbox2{
+          color: white;
+          font-size: 17px;
+          width: 200px;
+          
+        }
