@@ -415,3 +415,41 @@ hr.new5 {
           width: 200px;
           
         }
+
+
+        .box9{
+          display: flex;
+          width: 1240px;
+          height: 90px;
+          background-color: rgb(255, 175, 175);
+          margin: 0 auto;
+          margin-top: 40px;
+          border-radius: 5px;
+        }
+
+        .insidebox
+        {
+          display: flex;
+          width: 1190px;
+          height: 85px;
+          background-color: white;
+          margin-top: 2px;
+          margin-left: 47px;
+        }
+
+        .wordbox9{
+          display: flex;
+          margin-top: 50px;
+          margin-left: 50px;
+          font-size: 13px;
+          color: black;
+        }
+
+        .wordesbox8
+        {
+           display: flex;
+           font-size: 13px;
+           color: rgb(24, 24, 24);
+           margin-top: 20px;
+           margin-left: 50px;
+        }
