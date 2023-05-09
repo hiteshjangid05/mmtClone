@@ -109,7 +109,7 @@ body{
   .box
   {
     display: flex;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 1230px;
     height: 350px;
     margin: 0 auto;
@@ -125,43 +125,6 @@ body{
     width: 1100px;
     height: 100px;
     border-radius: 5px;
-}
-
-.imgbox
-{
-  display: flex;
-  padding: 10px;
-  background-color: rgb(255, 255, 255);
-  height: 45px;
-
-}
-
-.word2
-{
-  color: gray;
-  display: flex;
-  padding-left: 15px;
-}
-
-.whitebox
-{
-  display: flex;
-  background-color: white;
-  margin: 0 auto;
-  height: 500px;
-  width: 1240px;
-  border-radius: 15px;
-  margin-top: 50px;
-}
-
-.smallbox2
-{
-  display: flex;
-  width: 1200px;
-  height: 80px;
-  background-color: aqua;
-  margin: 0 auto;
-  margin-top: 20px;
 }
 
 .imgbox
@@ -200,22 +163,22 @@ body{
 
 a:link {
   color: rgb(0, 0, 0);
- text-decoration: blue;
+ text-decoration: dodgerblue;
 }
 
 a:visited {
-  color: blue;
-text-decoration: blue;
+  color: dodgerblue;
+text-decoration: dodgerblue;
 }
 
 a:hover {
-  color: blue;
-text-decoration: blue;
+  color: dodgerblue;
+  text-decoration: dodgerblue;
 }
 
 a:active {
-  color: rgb(30, 0, 255);
-  text-decoration: blue;
+  text-decoration: dodgerblue;
+  text-decoration: dodgerblue;
 } 
 
 hr.new4 {
@@ -279,8 +242,7 @@ hr.new5 {
   display: flex;
   margin: 20px;
   background-color: aqua;
-  
-}
+  }
 
 .whitemainbox
 {
@@ -288,7 +250,6 @@ hr.new5 {
   grid-template-columns: auto auto auto;
   width: 1300px;
   height: 150px;
-
   margin: 0 auto;
  }
 
@@ -304,7 +265,6 @@ hr.new5 {
   display: block;
   color: dodgerblue;
   font-size: 18px;
- 
  }
 
  .box6
@@ -312,7 +272,7 @@ hr.new5 {
      display: flex;
      background-color: hsl(0, 0%, 100%);
      width: 1240px;
-     height: 255px;
+     height: 230px;
      margin: 0 auto;
     border-radius: 9px;
     box-sizing: border-box;
@@ -320,7 +280,6 @@ hr.new5 {
 
  .imgbox4
  {
-   background-color: rgb(191, 0, 255);
    display: block;
    font-size: 30px;
    margin-top: 30px;
@@ -328,7 +287,6 @@ hr.new5 {
 
  .imgbox5
  {
-  background-color: aqua;
    display: block;
    color: gray;
    font-size: 15px;
@@ -416,7 +374,6 @@ hr.new5 {
           
         }
 
-
         .box9{
           display: flex;
           width: 1240px;
@@ -440,9 +397,10 @@ hr.new5 {
         .wordbox9{
           display: flex;
           margin-top: 50px;
-          margin-left: 50px;
           font-size: 13px;
           color: black;
+      
+        
         }
 
         .wordesbox8
@@ -451,8 +409,8 @@ hr.new5 {
            font-size: 13px;
            color: rgb(24, 24, 24);
            margin-top: 20px;
-           margin-left: 50px;
-        }
+          
+          }
 
         .mainbox6
         {
