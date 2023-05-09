@@ -453,3 +453,42 @@ hr.new5 {
            margin-top: 20px;
            margin-left: 50px;
         }
+
+        .mainbox6
+        {
+          margin: 0 auto;
+          height: 750px;
+          width: 1230px;
+        }
+
+         .greybox
+         {
+         margin: 0 auto;
+         height: 430px;
+         background-color: rgb(201, 201, 201);
+         display: flex;
+
+
+         }
+
+        .insidebox2
+         {
+          display: flex;
+          height: 350px;
+          width: 350px;
+          padding-top: 30px;
+          
+      }
+
+      .box0
+      {
+        margin: 0 auto;
+      }
+
+      .wordbox10
+      {
+        font-size: 13px;
+        color: rgb(0, 0, 0);
+        margin-top: 20px;
+      }
+
