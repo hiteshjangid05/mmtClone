@@ -195,6 +195,7 @@ hr.new4 {
   height: 200px;
   margin: 40px;
   border-radius: 10px;
+  
 }
 
 .imgbox1
@@ -309,9 +310,13 @@ hr.new5 {
     border: 1px solid dodgerblue;
     width: 175px;
     height: 39px;
-    font-size: 25px;
+    font-size: 18px;
      margin-left: 177px; 
      color: dodgerblue;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+   
      }
 
      .mainbox2
@@ -367,11 +372,70 @@ hr.new5 {
         border-radius: 5px;
         }
 
+        .bottom-left2 {
+          position: absolute;
+          bottom: 100px;
+          left: 45px;
+          color: black;
+          background-color: white;
+          width: 70px;
+          height: 25px;
+          font-size: 15px;
+          border-radius: 5px;
+          }
+
+          
+        .bottom-left3 {
+          position: absolute;
+          bottom: 80px;
+          left: 45px;
+          color: black;
+          background-color: white;
+          width: 70px;
+          height: 25px;
+          font-size: 15px;
+          border-radius: 5px;
+          }
+
+          .bottom-left4 {
+            position: absolute;
+            bottom: 50px;
+            left: 45px;
+            color: black;
+            background-color: white;
+            width: 70px;
+            height: 25px;
+            font-size: 15px;
+            border-radius: 5px;
+            }
+
+            
+          .bottom-left5 {
+            position: absolute;
+            bottom: 50px;
+            left: 45px;
+            color: black;
+    
+            width: 70px;
+            height: 25px;
+            font-size: 15px;
+            border-radius: 5px;
+            }
+
+            .bottom-left6 {
+              position: absolute;
+              bottom: 80px;
+              left: 45px;
+              color: black;
+              width: 70px;
+              height: 25px;
+              font-size: 15px;
+              border-radius: 5px;
+              }
         .wordbox2{
           color: white;
           font-size: 17px;
-          width: 200px;
-          
+          width: 195px;
         }
 
         .box9{
@@ -448,5 +512,46 @@ hr.new5 {
         font-size: 13px;
         color: rgb(0, 0, 0);
         margin-top: 20px;
+      }
+
+      .footer
+      {
+        display: flex;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        height: 200px;
+      }
+
+      .innerwords
+      {
+        display: flex;
+        font-size: 20px;
+       padding-left: 500px;
+        margin: 0 auto;
+        height: 50px;
+        padding-top: 75px;
+        
+      }
+
+      .wordboxs5
+      {
+        display: block;
+        font-size: 16px;
+        padding-left: 60px;
+      }
+
+      .wordboxs6
+      {
+        display: block;
+        font-size: 16px;
+        padding-left: 60px;
+      }
+
+      .imgboxs
+      {
+        margin: 0 auto;
+        padding: 70px;
+    
       }
 
